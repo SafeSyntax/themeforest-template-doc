@@ -1,0 +1,256 @@
+/*
+*****************************************************************************
+A Design by G.M.Mostakim Billah Rasel
+Template Name: Dream House
+Author: G.M.Mostakim Billah Rasel
+Author URI: http://mbrasel.me
+Mobile: +880 1914-467622;
+Description: Dream House is the Perfect Real estate & Business HTML Template. 
+  Dream world is the best suited for Real estate Business. 
+  This is a business template that is help full for online Real estate Business.
+Version: 1.0
+*****************************************************************************
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+#1	navbar
+#2	main
+	#2.1 intro
+	#2.2 html-structure
+
+--------------------------------------------------------------*/
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 27px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+p {
+	margin-bottom: 13px;
+	color: #767676;
+	line-height: 25px;
+}
+
+.padding {
+	padding: 50px 0;
+}
+
+
+h2 + p {
+	margin-bottom: 40px;
+}
+
+mark {
+	background: yellow;
+}
+
+ul li.active {
+	font-weight: 700;
+}
+a:hover,
+a:focus {
+	background: none !important;
+}
+img {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+#1	navbar
+--------------------------------------------------------------*/
+.main-navigation {
+	padding: 0;
+}
+
+#navbar {
+	padding: 0 !important;
+}
+
+.navbar ul {
+	width: 240px;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #0089e9;
+	z-index: 10;
+}
+.navbar ul .logo {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #0089e9;
+}
+.navbar ul .logo img {
+	max-width: 90%;
+	padding: 30px 20px;
+}
+.navbar ul li {
+	 display: block;
+	 width: 100%;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 10px 30px 10px 5px;
+	color: #fff;
+	text-align: right;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.navbar ul li.active a {
+	color: #fe931f;
+}
+.navbar ul li a:hover {
+	background: no-repeat;
+	font-weight: 700;
+}
+
+
+@media only screen and (max-width: 767px) {
+	#navbar {
+		position: absolute;
+		left: 0;
+		z-index: 10;
+		width: 100%;
+	}
+
+	.navbar ul {
+		width: 100%;
+		height: auto;
+		position: static;
+		z-index: 10;
+	}
+
+	.navbar ul li a {
+		text-align: center;
+	}
+}
+
+.navbar-header button span {
+	background: red;
+	z-index: 20;
+}
+
+
+
+/*--------------------------------------------------------------
+#1	main
+--------------------------------------------------------------*/
+.main {
+	padding: 20px 100px 20px;
+}
+
+@media only screen and (max-width: 991px) {
+	.main {
+		padding: 20px 100px 20px 150px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	.main {
+		padding: 20px;
+	}
+
+}
+
+/*--------------------------------------------------------------
+#2.1 intro
+--------------------------------------------------------------*/
+.intro {
+	padding: 50px 0 0;
+}
+.intro h1 {
+	text-transform: capitalize;
+}
+.intro h1> span {
+	color: #0089e9;
+}
+.intro .create-info {
+	color: #989898;
+	margin-bottom: 50px;
+}
+
+.intro p {
+	text-align: justify;
+	margin-bottom: 13px;
+	color: #767676;
+	line-height: 25px;
+}
+
+.intro .thanks {
+	margin-top: 50px;
+	margin-bottom: 140px;
+}
+
+.intro .thanks span {
+	color: #000;
+	font-weight: 700;
+}
+
+
+
+/*--------------------------------------------------------------
+#2.2 html-structure
+--------------------------------------------------------------*/
+.html-structure {
+	padding: 40px 0;
+}
+
+.html-structure img {
+	width: 100%;
+}
+
+.html-structure h2 + p {
+	margin-bottom: 10px;
+}
+
+.html-structure .note {
+	margin-bottom: 30px;
+}
+
+
+#others mark {
+	display: block;
+}
+
+#others p {
+	padding: 25px 0 10px;
+}
+#sec-heading {
+	margin-top: 100px;
+}
+.we-are {
+	margin-bottom: 300px;
+}
+.we-are h4 {
+	font-size: 20px;
+	color: #000;
+}
+.support, 
+.credit {
+	margin-bottom: 30px;
+}
