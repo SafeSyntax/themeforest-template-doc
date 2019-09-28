@@ -1,2 +1,2 @@
-# themeforest-template-doc
+# Documentation
 A Themeforest Template Documentation
