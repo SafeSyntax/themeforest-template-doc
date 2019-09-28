@@ -1,4 +1,4 @@
 # Documentation
 A Themeforest Template Documentation
 
-### See Live : safesyntax.github.io/doc
+### See Live : <a href="safesyntax.github.io/doc">Link</a>
